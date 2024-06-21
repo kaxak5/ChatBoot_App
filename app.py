@@ -4,7 +4,7 @@ from tkinter import Tk, Entry, Button, Text, Scrollbar
 
 
 class Chatbot:
-    def __init__(self, window):
+    def __init__(self, window): 
         window.title('Iris Assitant')
         window.geometry('405x400') 
         window.resizable(0, 0) 
