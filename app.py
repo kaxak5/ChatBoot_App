@@ -7,7 +7,7 @@ class Chatbot:
     def __init__(self, window):
         window.title('Iris Assitant')
         window.geometry('405x400')
-        window.resizable(0, 0)
+        window.resizable(0, 0) 
         self.message_session = Text(window, bd=3, relief="flat", font=(
             "Times", 10), undo=True, wrap="word")
         self.message_session.config(
