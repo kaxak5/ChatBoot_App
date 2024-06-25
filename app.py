@@ -3,7 +3,7 @@ from difflib import get_close_matches
 from tkinter import Tk, Entry, Button, Text, Scrollbar
 
  
-class Chatbot:
+class Chatbot: 
     def __init__(self, window): 
         window.title('Iris Assitant')
         window.geometry('405x400') 
